@@ -7,6 +7,8 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.text}>Text hello</Text>
       <Text style={styles.text2}>Text hello</Text>
+      <Text style={styles.text2}>Text hello</Text>
+      <Text style={styles.text3}>Text hello</Text>
       <Text style={styles.text3}>Text hello</Text>
       <Text>Hello</Text>
       <StatusBar style="auto" />
@@ -23,17 +25,17 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "#ffffff",
-    fontSize : 19;
+    fontSize : 19
     
-  }
+  },
   text2: {
     color: "#ffffff",
-    fontSize : 19;
+    fontSize : 19
     
-  }
+  },
   text3: {
     color: "#ffffff",
-    fontSize : 19;
+    fontSize : 19
     
   }
 });
